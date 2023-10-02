@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&family=Roboto:wght@400;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+     /* height: 100vh; */
+     box-sizing: border-box;
+     background-color: black;
+     color: white;
+}
+
+.img {
+    display: flex ;
+    width: 50%;
+    border-radius: 19px;
+    border: 5px solid white;
+}
+
+.titulo-destaque {
+    color: orangered;
+}
+
+span {
+    color: orangered;
+}
+
+strong {
+    color: orangered;
+    font-family: 'Roboto', sans-serif ;
+
+}
+
+
+.apresentacao {
+    padding: 4% 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+}
+
+.apresentacao__conteudo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.apresentacao__conteudo__titulo{
+    font-size: 43px;
+    font-family: 'Roboto', sans-serif ;
+}
+
+.cabecalho {
+    padding: 4% 0 1% 9%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 50px;
+    
+}
+
+.cabecalho__menu :hover {
+   color: chocolate;
+}
+
+.cabecalho__menu__link {
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif ;
+    font-size: 1.0rem;
+    font-weight: 400 ;
+}
+
+.apresentacao__conteudo__texto {
+    font-size: 2.25rem;
+    font-family: 'Roboto', sans-serif ;
+}
+
+
+.apresentacao__links{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.apresentacao__links__subtitulo{
+    font-family: 'Roboto', sans-serif ;
+    font-weight: 400 ;
+    font-size: 18px;
+}
+
+.apresentacao__links__link{
+    /* background-color: orangered; */
+    display: flex ;
+    justify-content: center;
+    gap: 16px;
+    border: solid 2px white;
+    width: 350px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 1.6rem ;
+    padding: 15px 0;
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif ;
+}
+
+
+.apresentacao__links__link:hover{
+    background-color: orangered ;
+}
+
+.icones {
+    width: 8%;
+}
+
+.icone__linkedin {
+    width: 3%;
+    justify-content:center;
+}
+
+
+.lista {
+    font-family: 'Roboto', sans-serif ;
+    font-size: 1.6rem ;
+
+
+}
+
+.lista__cuidados {
+    padding: 10px;
+}
+
+.rodape {
+    padding: 25px;
+    color: black; 
+    background-color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif ;
+    font-size: 15px;
+    font-weight: 400 ;
+    gap: 10px;
+}
+
+@media (max-width: 1200px){
+
+    .cabecalho {
+        padding: 12%;
+    }
+
+    .cabecalho__menu{
+        justify-content: center;
+    }
+
+    .apresentacao {
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .apresentacao__conteudo{
+        width: auto;
+
+    }
+
+}
